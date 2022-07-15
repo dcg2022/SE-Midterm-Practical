@@ -18,28 +18,31 @@ int main()
 
 
     std::cout << qbank.Q1 << "\n";
-    ans = qbank.Q1Answers();
-    if (ans = true)
-    {total++;}
-    else{}
+    if (qbank.Q1Answers() == true)
+    {
+        total++;
+    }
+
+ 
 
     std::cout << qbank.Q2 << "\n";
-    ans = qbank.Q2Answers();
-    if (ans = true)
-    {total++;}
-    else{}
+    if (qbank.Q2Answers() == true)
+    {
+        total++;
+    }
+    
 
     std::cout << qbank.Q3 << "\n";
-    ans = qbank.Q3Answers();
-    if (ans = true)
-    {total++;}
-    else{}
+    if (qbank.Q3Answers() == true)
+    {
+        total++;
+    }
 
     std::cout << qbank.Q4 << "\n";
-    ans = qbank.Q4Answers();
-    if (ans = true)
-    {total++;}
-    else{}
+    if (qbank.Q4Answers() == true)
+    {
+        total++;
+    }
 
 
     std::cout << "Score: " << total << "/4";
