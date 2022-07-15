@@ -10,6 +10,19 @@
 *.userosscache
 *.sln.docstates
 
+Debug
+Release
+ipch
+*.sdf
+*.opensdf
+*.db
+*.opendb
+*.suo
+*.exe
+!CreateMain.exe
+/UnitTester/Defines.h
+.vs
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
