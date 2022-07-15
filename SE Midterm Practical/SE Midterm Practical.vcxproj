@@ -139,7 +139,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="QuestionBank.cpp" />
     <ClCompile Include="SE Midterm Practical.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="QuestionBank.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

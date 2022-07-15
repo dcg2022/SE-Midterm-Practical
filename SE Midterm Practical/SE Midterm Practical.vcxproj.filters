@@ -18,5 +18,13 @@
     <ClCompile Include="SE Midterm Practical.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="QuestionBank.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="QuestionBank.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

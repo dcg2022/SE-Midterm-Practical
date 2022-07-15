@@ -2,9 +2,21 @@
 //
 
 #include <iostream>
+#include <string>
+#include "QuestionBank.h"
+
+
+
+
+
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    
+    QuestionBank qbank;
+    std::cout << qbank.Q1 << "\n";
+    bool ans = qbank.Q1Answers();
+
 }
+
 
