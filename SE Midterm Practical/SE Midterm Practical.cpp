@@ -22,6 +22,10 @@ int main()
     {total++;}
 
     std::cout << qbank.Q2 << "\n";
+    ans = qbank.Q2Answers();
+    if (ans = true)
+    {total++;}
+
 
 
 }

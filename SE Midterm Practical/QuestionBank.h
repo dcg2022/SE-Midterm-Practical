@@ -13,7 +13,14 @@ public:
 	string Q2 = "Question 2: Who was the Folk Hero that is famous for wearing a Racoon Skin Cap?";
 	bool Q2Answers();
 
-	string Q3;
+	string Q3 = "Question 3: What is the famous landmark which served as a stronghold in the Texan-Mexican War?";
+	bool Q3Answers();
+
+
+
+
+
+
 	string Q4;
 
 
