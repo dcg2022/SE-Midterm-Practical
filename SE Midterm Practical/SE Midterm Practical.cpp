@@ -12,7 +12,7 @@
 
 int main()
 {
-    int total;
+    int total = 0;
     QuestionBank qbank;
 
 
@@ -26,7 +26,17 @@ int main()
     if (ans = true)
     {total++;}
 
-
+    std::cout << qbank.Q3 << "\n";
+    ans = qbank.Q3Answers();
+    if (ans = true)
+    {total++;}
+    
+    std::cout << qbank.Q4 << "\n";
+    ans = qbank.Q4Answers();
+    if (ans = true)
+    {
+        total++;
+    }
 
 }
 

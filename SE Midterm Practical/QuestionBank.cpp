@@ -16,11 +16,11 @@ bool QuestionBank::Q1Answers()
 	if (ans == 'C' || ans == 'c')
 	{
 		correct = true;
-		cout << "Correct.";
+		cout << "Correct." << "\n" << "\n";
 	}
 	else
 	{
-		cout << "Incorrect";
+		cout << "Incorrect" << "\n" << "\n";
 	}
 	
 
@@ -38,14 +38,14 @@ bool QuestionBank::Q2Answers()
 	cout << "D: Johnny Appleseed" << "\n";
 	cin >> ans;
 
-	if (ans == 'C' || ans == 'c')
+	if (ans == 'B' || ans == 'b')
 	{
 		correct = true;
-		cout << "Correct.";
+		cout << "Correct." << "\n" << "\n";
 	}
 	else
 	{
-		cout << "Incorrect";
+		cout << "Incorrect" << "\n" << "\n";
 	}
 
 
@@ -63,14 +63,40 @@ bool QuestionBank::Q3Answers()
 	cout << "D: The USS Lexington" << "\n";
 	cin >> ans;
 
-	if (ans == 'C' || ans == 'c')
+	if (ans == 'A' || ans == 'a')
 	{
 		correct = true;
-		cout << "Correct.";
+		cout << "Correct." << "\n" << "\n";
 	}
 	else
 	{
-		cout << "Incorrect";
+		cout << "Incorrect" << "\n" << "\n";
+	}
+
+
+	return correct;
+}
+
+
+bool QuestionBank::Q3Answers()
+{
+	bool correct = false;
+	char ans;
+
+	cout << "A: Barbeque" << "\n";
+	cout << "B: Guns" << "\n";
+	cout << "C: The Rodeo" << "\n";
+	cout << "D: All of the Above" << "\n";
+	cin >> ans;
+
+	if (ans == 'D' || ans == 'd')
+	{
+		correct = true;
+		cout << "Correct." << "\n" << "\n";
+	}
+	else
+	{
+		cout << "Incorrect" << "\n" << "\n";
 	}
 
 

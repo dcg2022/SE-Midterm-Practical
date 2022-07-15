@@ -21,7 +21,8 @@ public:
 
 
 
-	string Q4;
+	string Q4 = "QUestion 4: What is Texas known for?";
+	bool Q4Answers();
 
 
 };
